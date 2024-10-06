@@ -55,15 +55,16 @@ body {
 }
 
 .profile-image {
-    width: 50%;
-    height: auto;
-    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+    object-fit: cover; 
     margin-left: 40px;
     margin-top: 10px;
     margin-bottom: 10px;
     margin-right: 40px;
-    max-width: 200px;
 }
+
 
  /* About Me Section */
  .about {
